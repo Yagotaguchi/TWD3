@@ -1,0 +1,51 @@
+footer{
+    background-image: url(./img/banner_historia.jpg);
+    background-size: cover;
+    padding: 50px 50px;
+    background-position: 0px 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+    gap: 95px;
+}
+
+
+footer span{
+    font-size: 2.8rem!important;
+    color: #e19797;
+    font-weight: bold!important;
+    
+}
+
+
+footer span:hover{
+    transform: scale(1.1, 1.1);
+}
+
+footer p{
+    max-width: 800px;
+}
+
+@media (max-width: 375px) {
+    footer {
+        padding: 38px 50px;
+        background-position: -250px 520px;
+    }
+    
+    footer p {
+        text-align: center;
+    }
+
+    footer ul {
+        gap: 15px;
+    }
+
+    footer span {
+        color: tomato;
+    }
+}

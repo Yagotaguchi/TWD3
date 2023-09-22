@@ -1,0 +1,79 @@
+.mortes{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.mortes h3{
+    font-size: 2.2rem;
+    color: #783a32;
+    margin-bottom: 25px;
+}
+
+.mortes p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+
+.mortes hr{
+   width: 200px;
+   height: 1px;
+   background-color: #ccc;
+   margin-bottom: 70px;
+}
+
+
+.mortes .grid{
+   width: 100%;
+   display: flex;
+}
+
+
+
+.mortes li{
+    padding: 0 30px;
+    text-align: center;
+    transition: all ease-in 500ms;
+    cursor: pointer;
+}
+
+
+.mortes .grid h3{ font-size: 1.5rem; color: #c3c63b; margin-bottom: 30px; }
+
+.mortes .grid span{
+    color: #c3c63b;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+
+.mortes .grid li:hover{
+    background-color: #ff000026;
+    border-radius: 20px;
+    border-bottom: 1px solid yellow;
+    transform: scale(1.1, 1.1);
+}
+
+
+@media (max-width: 375px) {
+    .mortes h3 {
+        color: tomato;
+    }
+
+    .mortes p {
+        text-align: center;
+    }
+
+    .mortes .grid {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    .mortes .grid span {
+        font-size: 8rem;
+    }
+}

@@ -1,0 +1,89 @@
+.epidemia{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.epidemia h3{
+    font-size: 2.2rem;
+    color: #783a32;
+    margin-bottom: 25px;
+}
+
+.epidemia p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.epidemia p{ 
+   color: #000;
+}
+
+.epidemia hr{
+   width: 200px;
+   height: 1px;
+   background-color: #ccc;
+   margin-bottom: 70px;
+}
+
+
+.epidemia .grid{
+   width: 100%;
+   display: flex;
+}
+
+.epidemia .grid{
+   flex-wrap: wrap;
+}
+
+
+.epidemia{
+    background-color: #fff;
+}
+
+.epidemia .grid li{
+    height: 350px;
+    padding: 5px;
+    border-radius: 5px;
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;
+ }
+
+ .epidemia .small{
+    flex-basis: 40%;
+ }
+
+ .epidemia .large{
+    flex-basis: 60%;
+ }
+
+
+.foto1{background-image: url(../img/the-walking-dead-s01e01-days-gone-bye-001.jpg)}
+.foto2{background-image: url(../img/the-walking-dead-s01e01-days-gone-bye-002.jpg)}
+.foto3{background-image: url(../img/the-walking-dead-s01e01-days-gone-bye-003.jpg)}
+.foto4{background-image: url(../img/the-walking-dead-s01e01-days-gone-bye-004.jpg)}
+
+
+
+@media (max-width: 375px) {
+   .epidemia h3 {
+      color: tomato;
+      text-align: center;
+   }
+
+   .epidemia p {
+      text-align: center;
+  }
+  .epidemia .large, .epidemia .small {
+      flex-basis: 100%;
+   }
+
+   .foto1 {background-position: 0px 0px!important;}
+   .foto2 {background-position: 0px 0px!important;}
+   .foto3 {background-position: -160px 0px!important;}
+   .foto4 {background-position: -230px 0px!important;}
+}
